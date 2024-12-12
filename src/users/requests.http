@@ -1,0 +1,25 @@
+# POST http://localhost:3000/auth/signup
+# Content-Type: application/json
+
+# {
+#   "email": "user2@test.com",
+#   "password": "user2"
+# }
+
+
+# POST http://localhost:3000/auth/signin
+# Content-Type: application/json
+
+# {
+#   "email": "admin@test.com",
+#   "password": "admin123"
+# }
+
+
+GET http://localhost:3000/auth/whoami
+
+# POST http://localhost:3000/auth/signout
+
+
+
+# GET http://localhost:3000/auth/users
